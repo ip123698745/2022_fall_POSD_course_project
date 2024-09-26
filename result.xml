@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="155" failures="0" disabled="0" errors="0" time="1.925" timestamp="2022-12-18T23:56:38.086" name="AllTests">
+  <testsuite name="PointTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.072" timestamp="2022-12-18T23:56:38.133">
+    <testcase name="testX" status="run" result="completed" time="0.011" timestamp="2022-12-18T23:56:38.136" classname="PointTest" />
+    <testcase name="testY" status="run" result="completed" time="0.002" timestamp="2022-12-18T23:56:38.152" classname="PointTest" />
+    <testcase name="testOperatorEqual" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:38.156" classname="PointTest" />
+    <testcase name="testOperatorEqual2" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:38.161" classname="PointTest" />
+    <testcase name="testInfo" status="run" result="completed" time="0.034" timestamp="2022-12-18T23:56:38.166" classname="PointTest" />
+    <testcase name="testInfo2" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:38.201" classname="PointTest" />
+  </testsuite>
+  <testsuite name="TwoDimensionalVectorTest" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0.06" timestamp="2022-12-18T23:56:38.211">
+    <testcase name="testPointA" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:38.211" classname="TwoDimensionalVectorTest" />
+    <testcase name="testPointB" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:38.218" classname="TwoDimensionalVectorTest" />
+    <testcase name="testLength" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:38.221" classname="TwoDimensionalVectorTest" />
+    <testcase name="testLength2" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:38.228" classname="TwoDimensionalVectorTest" />
+    <testcase name="testDot" status="run" result="completed" time="0.006" timestamp="2022-12-18T23:56:38.233" classname="TwoDimensionalVectorTest" />
+    <testcase name="testDot2" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:38.241" classname="TwoDimensionalVectorTest" />
+    <testcase name="testCross" status="run" result="completed" time="0.006" timestamp="2022-12-18T23:56:38.248" classname="TwoDimensionalVectorTest" />
+    <testcase name="testCross2" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:38.255" classname="TwoDimensionalVectorTest" />
+    <testcase name="testInfo" status="run" result="completed" time="0.009" timestamp="2022-12-18T23:56:38.261" classname="TwoDimensionalVectorTest" />
+  </testsuite>
+  <testsuite name="TriangleTest" tests="14" failures="0" disabled="0" skipped="0" errors="0" time="0.182" timestamp="2022-12-18T23:56:38.273">
+    <testcase name="testisTriangle" status="run" result="completed" time="0.049" timestamp="2022-12-18T23:56:38.273" classname="TriangleTest" />
+    <testcase name="testisTriangle2" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:38.324" classname="TriangleTest" />
+    <testcase name="testisTriangle3" status="run" result="completed" time="0.006" timestamp="2022-12-18T23:56:38.331" classname="TriangleTest" />
+    <testcase name="testisTriangle4" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:38.338" classname="TriangleTest" />
+    <testcase name="testArea" status="run" result="completed" time="0.006" timestamp="2022-12-18T23:56:38.344" classname="TriangleTest" />
+    <testcase name="testArea2" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:38.352" classname="TriangleTest" />
+    <testcase name="testPerimeter" status="run" result="completed" time="0.01" timestamp="2022-12-18T23:56:38.358" classname="TriangleTest" />
+    <testcase name="testPerimeter2" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:38.369" classname="TriangleTest" />
+    <testcase name="testInfo" status="run" result="completed" time="0.009" timestamp="2022-12-18T23:56:38.376" classname="TriangleTest" />
+    <testcase name="testaddShape" status="run" result="completed" time="0.009" timestamp="2022-12-18T23:56:38.386" classname="TriangleTest" />
+    <testcase name="testdeleteShape" status="run" result="completed" time="0.007" timestamp="2022-12-18T23:56:38.397" classname="TriangleTest" />
+    <testcase name="testNullIteratorWithIsDone" status="run" result="completed" time="0.008" timestamp="2022-12-18T23:56:38.405" classname="TriangleTest" />
+    <testcase name="testNullIteratorWithIsDone2" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:38.415" classname="TriangleTest" />
+    <testcase name="testgetPoints" status="run" result="completed" time="0.033" timestamp="2022-12-18T23:56:38.421" classname="TriangleTest" />
+  </testsuite>
+  <testsuite name="RectangleTest" tests="16" failures="0" disabled="0" skipped="0" errors="0" time="0.136" timestamp="2022-12-18T23:56:38.457">
+    <testcase name="testisRectangle" status="run" result="completed" time="0.008" timestamp="2022-12-18T23:56:38.457" classname="RectangleTest" />
+    <testcase name="testisRectangle2" status="run" result="completed" time="0.006" timestamp="2022-12-18T23:56:38.467" classname="RectangleTest" />
+    <testcase name="testisRectangle3" status="run" result="completed" time="0.006" timestamp="2022-12-18T23:56:38.475" classname="RectangleTest" />
+    <testcase name="testisRectangle4" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:38.483" classname="RectangleTest" />
+    <testcase name="testLength" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:38.488" classname="RectangleTest" />
+    <testcase name="testWidth" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:38.495" classname="RectangleTest" />
+    <testcase name="testArea" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:38.501" classname="RectangleTest" />
+    <testcase name="testArea2" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:38.507" classname="RectangleTest" />
+    <testcase name="testPerimeter" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:38.514" classname="RectangleTest" />
+    <testcase name="testPerimeter2" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:38.520" classname="RectangleTest" />
+    <testcase name="testInfo" status="run" result="completed" time="0.008" timestamp="2022-12-18T23:56:38.525" classname="RectangleTest" />
+    <testcase name="testaddShape" status="run" result="completed" time="0.006" timestamp="2022-12-18T23:56:38.535" classname="RectangleTest" />
+    <testcase name="testdeleteShape" status="run" result="completed" time="0.008" timestamp="2022-12-18T23:56:38.543" classname="RectangleTest" />
+    <testcase name="testnullIteratorWithIsDone" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:38.553" classname="RectangleTest" />
+    <testcase name="testnullIteratorWithIsDone2" status="run" result="completed" time="0.006" timestamp="2022-12-18T23:56:38.558" classname="RectangleTest" />
+    <testcase name="testgetPoints" status="run" result="completed" time="0.026" timestamp="2022-12-18T23:56:38.566" classname="RectangleTest" />
+  </testsuite>
+  <testsuite name="CircleTest" tests="13" failures="0" disabled="0" skipped="0" errors="0" time="0.076" timestamp="2022-12-18T23:56:38.596">
+    <testcase name="testRadius" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:38.596" classname="CircleTest" />
+    <testcase name="testArea" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:38.601" classname="CircleTest" />
+    <testcase name="testArea2" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:38.606" classname="CircleTest" />
+    <testcase name="testArea3" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:38.611" classname="CircleTest" />
+    <testcase name="testPerimeter" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:38.616" classname="CircleTest" />
+    <testcase name="testPerimeter2" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:38.621" classname="CircleTest" />
+    <testcase name="testPerimeter3" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:38.625" classname="CircleTest" />
+    <testcase name="testInfo" status="run" result="completed" time="0.006" timestamp="2022-12-18T23:56:38.631" classname="CircleTest" />
+    <testcase name="testaddShape" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:38.638" classname="CircleTest" />
+    <testcase name="testdeleteShape" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:38.644" classname="CircleTest" />
+    <testcase name="testnullIteratorWithIsDone" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:38.650" classname="CircleTest" />
+    <testcase name="testnullIteratorWithIsDone2" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:38.655" classname="CircleTest" />
+    <testcase name="testgetPoints" status="run" result="completed" time="0.01" timestamp="2022-12-18T23:56:38.661" classname="CircleTest" />
+  </testsuite>
+  <testsuite name="CompoundShapeTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.139" timestamp="2022-12-18T23:56:38.674">
+    <testcase name="testArea" status="run" result="completed" time="0.022" timestamp="2022-12-18T23:56:38.674" classname="CompoundShapeTest" />
+    <testcase name="testAreaAndAddShape" status="run" result="completed" time="0.015" timestamp="2022-12-18T23:56:38.698" classname="CompoundShapeTest" />
+    <testcase name="testPerimeter" status="run" result="completed" time="0.01" timestamp="2022-12-18T23:56:38.714" classname="CompoundShapeTest" />
+    <testcase name="testPerimeterAndDeleteShape" status="run" result="completed" time="0.022" timestamp="2022-12-18T23:56:38.725" classname="CompoundShapeTest" />
+    <testcase name="testInfo" status="run" result="completed" time="0.016" timestamp="2022-12-18T23:56:38.749" classname="CompoundShapeTest" />
+    <testcase name="testgetPoints" status="run" result="completed" time="0.045" timestamp="2022-12-18T23:56:38.767" classname="CompoundShapeTest" />
+  </testsuite>
+  <testsuite name="NullIteratorTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.014" timestamp="2022-12-18T23:56:38.815">
+    <testcase name="FirstShouldThrowException" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:38.815" classname="NullIteratorTest" />
+    <testcase name="CurrentShouldThrowException" status="run" result="completed" time="0.002" timestamp="2022-12-18T23:56:38.820" classname="NullIteratorTest" />
+    <testcase name="NextShouldThrowException" status="run" result="completed" time="0.002" timestamp="2022-12-18T23:56:38.823" classname="NullIteratorTest" />
+    <testcase name="IsDoneShouldBeTrue" status="run" result="completed" time="0.002" timestamp="2022-12-18T23:56:38.826" classname="NullIteratorTest" />
+  </testsuite>
+  <testsuite name="DFSCompoundIteratorTest" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0.11" timestamp="2022-12-18T23:56:38.833">
+    <testcase name="CurrentItemShouldBeCorrect" status="run" result="completed" time="0.015" timestamp="2022-12-18T23:56:38.834" classname="DFSCompoundIteratorTest" />
+    <testcase name="NextShouldBeCorrect" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:38.851" classname="DFSCompoundIteratorTest" />
+    <testcase name="IsDoneShouldBeCorrect" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:38.859" classname="DFSCompoundIteratorTest" />
+    <testcase name="CurrentItemShouldThrowExceptionWhenIsDone" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:38.865" classname="DFSCompoundIteratorTest" />
+    <testcase name="NextShouldThrowExceptionWhenIsDone" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:38.870" classname="DFSCompoundIteratorTest" />
+    <testcase name="DFSOrderShouldBeCorrectIfNoChildrenInCompound" status="run" result="completed" time="0.007" timestamp="2022-12-18T23:56:38.875" classname="DFSCompoundIteratorTest" />
+    <testcase name="DFSOrderShouldBeCorrectIfACircleInCompound" status="run" result="completed" time="0.008" timestamp="2022-12-18T23:56:38.883" classname="DFSCompoundIteratorTest" />
+    <testcase name="DFSOrderShouldBeCorrectWithMultipleCompoundShapes" status="run" result="completed" time="0.019" timestamp="2022-12-18T23:56:38.893" classname="DFSCompoundIteratorTest" />
+    <testcase name="DFSOrderShouldBeCorrectWithComplicatedTreeStructure" status="run" result="completed" time="0.03" timestamp="2022-12-18T23:56:38.914" classname="DFSCompoundIteratorTest" />
+  </testsuite>
+  <testsuite name="BFSCompoundIteratorTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.078" timestamp="2022-12-18T23:56:38.946">
+    <testcase name="CurrentItemShouldBeCorrect" status="run" result="completed" time="0.054" timestamp="2022-12-18T23:56:38.947" classname="BFSCompoundIteratorTest" />
+    <testcase name="NextShouldBeCorrect" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.003" classname="BFSCompoundIteratorTest" />
+    <testcase name="NextShouldBeCorrect2" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.007" classname="BFSCompoundIteratorTest" />
+    <testcase name="IsDoneShouldBeCorrect" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.012" classname="BFSCompoundIteratorTest" />
+    <testcase name="CurrentItemShouldThrowExceptionWhenIsDone" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.017" classname="BFSCompoundIteratorTest" />
+    <testcase name="NextShouldThrowExceptionWhenIsDone" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.021" classname="BFSCompoundIteratorTest" />
+  </testsuite>
+  <testsuite name="ListCompoundIteratorTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.041" timestamp="2022-12-18T23:56:39.028">
+    <testcase name="CurrentItemShouldBeCorrect" status="run" result="completed" time="0.016" timestamp="2022-12-18T23:56:39.029" classname="ListCompoundIteratorTest" />
+    <testcase name="NextShouldBeCorrect" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.048" classname="ListCompoundIteratorTest" />
+    <testcase name="NextShouldBeCorrect2" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:39.052" classname="ListCompoundIteratorTest" />
+    <testcase name="IsDoneShouldBeCorrect" status="run" result="completed" time="0.002" timestamp="2022-12-18T23:56:39.057" classname="ListCompoundIteratorTest" />
+    <testcase name="CurrentItemShouldThrowExceptionWhenIsDone" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:39.061" classname="ListCompoundIteratorTest" />
+    <testcase name="NextShouldThrowExceptionWhenIsDone" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.066" classname="ListCompoundIteratorTest" />
+  </testsuite>
+  <testsuite name="BoundingBoxTest" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0.122" timestamp="2022-12-18T23:56:39.071">
+    <testcase name="testBoundingBoxShouldThrowExceptionWhenSetIsEmpty" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:39.072" classname="BoundingBoxTest" />
+    <testcase name="testCircleBoundingBoxMaxPoint" status="run" result="completed" time="0.017" timestamp="2022-12-18T23:56:39.079" classname="BoundingBoxTest" />
+    <testcase name="testCircleBoundingBoxMinPoint" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:39.098" classname="BoundingBoxTest" />
+    <testcase name="testRectangleBoundingBoxMaxPoint" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:39.104" classname="BoundingBoxTest" />
+    <testcase name="testRectangleBoundingBoxMinPoint" status="run" result="completed" time="0.006" timestamp="2022-12-18T23:56:39.110" classname="BoundingBoxTest" />
+    <testcase name="testTriangleBoundingBoxMaxPoint" status="run" result="completed" time="0.006" timestamp="2022-12-18T23:56:39.118" classname="BoundingBoxTest" />
+    <testcase name="testTriangleBoundingBoxMinPoint" status="run" result="completed" time="0.007" timestamp="2022-12-18T23:56:39.125" classname="BoundingBoxTest" />
+    <testcase name="testCompoundShapeBoundingBoxMaxPoint" status="run" result="completed" time="0.019" timestamp="2022-12-18T23:56:39.134" classname="BoundingBoxTest" />
+    <testcase name="testCompoundShapeBoundingBoxMinPoint" status="run" result="completed" time="0.013" timestamp="2022-12-18T23:56:39.154" classname="BoundingBoxTest" />
+    <testcase name="testBoundingBoxShouldBeCollide" status="run" result="completed" time="0.015" timestamp="2022-12-18T23:56:39.169" classname="BoundingBoxTest" />
+    <testcase name="testBoundingBoxShouldNotCollide" status="run" result="completed" time="0.008" timestamp="2022-12-18T23:56:39.185" classname="BoundingBoxTest" />
+  </testsuite>
+  <testsuite name="CollisionDetectorTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.08" timestamp="2022-12-18T23:56:39.197">
+    <testcase name="testCircleShouldNotCollide" status="run" result="completed" time="0.019" timestamp="2022-12-18T23:56:39.197" classname="CollisionDetectorTest" />
+    <testcase name="testTriangleShouldBeCollide" status="run" result="completed" time="0.02" timestamp="2022-12-18T23:56:39.218" classname="CollisionDetectorTest" />
+    <testcase name="testRectangleShouldBeCollide" status="run" result="completed" time="0.011" timestamp="2022-12-18T23:56:39.240" classname="CollisionDetectorTest" />
+    <testcase name="testCompoundShapeShouldBeCollide" status="run" result="completed" time="0.024" timestamp="2022-12-18T23:56:39.252" classname="CollisionDetectorTest" />
+  </testsuite>
+  <testsuite name="ShapeBuilderTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.106" timestamp="2022-12-18T23:56:39.280">
+    <testcase name="BuildCircleShouldBeCorrect" status="run" result="completed" time="0.024" timestamp="2022-12-18T23:56:39.280" classname="ShapeBuilderTest" />
+    <testcase name="BuildTriangleShouldBeCorrect" status="run" result="completed" time="0.006" timestamp="2022-12-18T23:56:39.306" classname="ShapeBuilderTest" />
+    <testcase name="BuildRectangleShouldBeCorrect" status="run" result="completed" time="0.006" timestamp="2022-12-18T23:56:39.313" classname="ShapeBuilderTest" />
+    <testcase name="BuildSimpleCompoundShouldBeCorrect" status="run" result="completed" time="0.01" timestamp="2022-12-18T23:56:39.321" classname="ShapeBuilderTest" />
+    <testcase name="BuildComplexCompoundShouldBeCorrect" status="run" result="completed" time="0.018" timestamp="2022-12-18T23:56:39.332" classname="ShapeBuilderTest" />
+    <testcase name="BuildMultipleShapeShouldBeCorrect" status="run" result="completed" time="0.032" timestamp="2022-12-18T23:56:39.351" classname="ShapeBuilderTest" />
+  </testsuite>
+  <testsuite name="ScannerTest" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0.201" timestamp="2022-12-18T23:56:39.401">
+    <testcase name="testScannerNextShouldSkipOthercharacters" status="run" result="completed" time="0.021" timestamp="2022-12-18T23:56:39.401" classname="ScannerTest" />
+    <testcase name="testScannerNextDoubleShouldSkipOthercharacters" status="run" result="completed" time="0.018" timestamp="2022-12-18T23:56:39.424" classname="ScannerTest" />
+    <testcase name="testScannerNextShouldThrowException" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:39.443" classname="ScannerTest" />
+    <testcase name="testScannerNextShouldThrowException2" status="run" result="completed" time="0.002" timestamp="2022-12-18T23:56:39.449" classname="ScannerTest" />
+    <testcase name="testScannerNextShouldThrowException3" status="run" result="completed" time="0.002" timestamp="2022-12-18T23:56:39.453" classname="ScannerTest" />
+    <testcase name="testScannerNextDoubleShouldThrowException" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.456" classname="ScannerTest" />
+    <testcase name="testScannerNextDoubleShouldThrowException2" status="run" result="completed" time="0.002" timestamp="2022-12-18T23:56:39.462" classname="ScannerTest" />
+    <testcase name="testScannerShouldBeCorrect" status="run" result="completed" time="0.021" timestamp="2022-12-18T23:56:39.465" classname="ScannerTest" />
+    <testcase name="testScannerNextShouldThrowExceptionWhenIsDone" status="run" result="completed" time="0.018" timestamp="2022-12-18T23:56:39.487" classname="ScannerTest" />
+    <testcase name="testScannerNextDoubleShouldThrowExceptionWhenIsDone" status="run" result="completed" time="0.015" timestamp="2022-12-18T23:56:39.506" classname="ScannerTest" />
+    <testcase name="testScannerShouldBeCorrect2" status="run" result="completed" time="0.078" timestamp="2022-12-18T23:56:39.523" classname="ScannerTest" />
+  </testsuite>
+  <testsuite name="ShapeParserTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.095" timestamp="2022-12-18T23:56:39.603">
+    <testcase name="ParseCircleShouldBeCorrect" status="run" result="completed" time="0.029" timestamp="2022-12-18T23:56:39.604" classname="ShapeParserTest" />
+    <testcase name="ParseTriangleShouldBeCorrect" status="run" result="completed" time="0.018" timestamp="2022-12-18T23:56:39.634" classname="ShapeParserTest" />
+    <testcase name="ParseRectangleShouldBeCorrect" status="run" result="completed" time="0.015" timestamp="2022-12-18T23:56:39.654" classname="ShapeParserTest" />
+    <testcase name="ParseCompoundShapeShouldBeCorrect" status="run" result="completed" time="0.008" timestamp="2022-12-18T23:56:39.670" classname="ShapeParserTest" />
+    <testcase name="ParseComplexCompoundShapeShouldBeCorrect" status="run" result="completed" time="0.007" timestamp="2022-12-18T23:56:39.681" classname="ShapeParserTest" />
+    <testcase name="ParseMultipleShapeShouldBeCorrect" status="run" result="completed" time="0.008" timestamp="2022-12-18T23:56:39.689" classname="ShapeParserTest" />
+  </testsuite>
+  <testsuite name="FileReaderTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.028" timestamp="2022-12-18T23:56:39.700">
+    <testcase name="ReadShouldBeCorrect" status="run" result="completed" time="0.027" timestamp="2022-12-18T23:56:39.700" classname="FileReaderTest" />
+  </testsuite>
+  <testsuite name="SDLAdapterTest" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0.085" timestamp="2022-12-18T23:56:39.731">
+    <testcase name="initShouldBeCalledWhenAdapterIsInitialized" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:39.731" classname="SDLAdapterTest" />
+    <testcase name="initCalledArgsShouldBeCorrect" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.737" classname="SDLAdapterTest" />
+    <testcase name="widthAndHeightShouldBeGreaterThanZero" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:39.741" classname="SDLAdapterTest" />
+    <testcase name="renderDrawCircleCalledArgsShouldBeCorrect" status="run" result="completed" time="0.009" timestamp="2022-12-18T23:56:39.747" classname="SDLAdapterTest" />
+    <testcase name="renderDrawLinesCalledArgsShouldBeCorrectForTriangle" status="run" result="completed" time="0.012" timestamp="2022-12-18T23:56:39.758" classname="SDLAdapterTest" />
+    <testcase name="renderDrawLinesCalledArgsShouldBeCorrectForNonRotatedRectangle" status="run" result="completed" time="0.021" timestamp="2022-12-18T23:56:39.771" classname="SDLAdapterTest" />
+    <testcase name="renderDrawLinesCalledArgsShouldBeCorrectForRotatedRectangle" status="run" result="completed" time="0.016" timestamp="2022-12-18T23:56:39.794" classname="SDLAdapterTest" />
+    <testcase name="renderPresentShouldBeCalledWhenAdapterIsDisplayed" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.812" classname="SDLAdapterTest" />
+  </testsuite>
+  <testsuite name="GrabCommandTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.056" timestamp="2022-12-18T23:56:39.817">
+    <testcase name="executeShouldCallGrabMethodWithCorrectMousePosition" status="run" result="completed" time="0.038" timestamp="2022-12-18T23:56:39.817" classname="GrabCommandTest" />
+    <testcase name="undoShouldCallMoveAndDropMethodWithCorrectMousePosition" status="run" result="completed" time="0.007" timestamp="2022-12-18T23:56:39.857" classname="GrabCommandTest" />
+    <testcase name="getXShouldBeCorrectAfterExecute" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.865" classname="GrabCommandTest" />
+    <testcase name="getYShouldBeCorrectAfterExecute" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.870" classname="GrabCommandTest" />
+  </testsuite>
+  <testsuite name="DropCommandTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.025" timestamp="2022-12-18T23:56:39.875">
+    <testcase name="executeShouldCallDropMethodWithCorrectMousePosition" status="run" result="completed" time="0.008" timestamp="2022-12-18T23:56:39.875" classname="DropCommandTest" />
+    <testcase name="undoShouldCallGrabMethodWithCorrectMousePosition" status="run" result="completed" time="0.004" timestamp="2022-12-18T23:56:39.885" classname="DropCommandTest" />
+    <testcase name="getXShouldBeCorrectAfterExecute" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.890" classname="DropCommandTest" />
+    <testcase name="getYShouldBeCorrectAfterExecute" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.896" classname="DropCommandTest" />
+  </testsuite>
+  <testsuite name="MoveCommandTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.021" timestamp="2022-12-18T23:56:39.902">
+    <testcase name="executeShouldCallMoveMethodWithCorrectMousePosition" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:39.902" classname="MoveCommandTest" />
+    <testcase name="undoShouldCallMoveMethodWithCorrectMousePosition" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:39.909" classname="MoveCommandTest" />
+    <testcase name="getXShouldBeCorrectAfterExecute" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.915" classname="MoveCommandTest" />
+    <testcase name="getYShouldBeCorrectAfterExecute" status="run" result="completed" time="0.003" timestamp="2022-12-18T23:56:39.920" classname="MoveCommandTest" />
+  </testsuite>
+  <testsuite name="MacroCommandTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.035" timestamp="2022-12-18T23:56:39.925">
+    <testcase name="mockDragAndDropShouldBeCorrectAfterExecute" status="run" result="completed" time="0.011" timestamp="2022-12-18T23:56:39.926" classname="MacroCommandTest" />
+    <testcase name="getCommandsShouldBeCorrectAfterExecute" status="run" result="completed" time="0.014" timestamp="2022-12-18T23:56:39.938" classname="MacroCommandTest" />
+    <testcase name="undoShouldBeCorrect" status="run" result="completed" time="0.006" timestamp="2022-12-18T23:56:39.954" classname="MacroCommandTest" />
+  </testsuite>
+  <testsuite name="CommandHistoryTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.037" timestamp="2022-12-18T23:56:39.963">
+    <testcase name="getHistoryShouldBeCorrect" status="run" result="completed" time="0.02" timestamp="2022-12-18T23:56:39.964" classname="CommandHistoryTest" />
+    <testcase name="getHistoryShouldBeCorrectAfterGrabAndDropCommandExecute" status="run" result="completed" time="0.005" timestamp="2022-12-18T23:56:39.985" classname="CommandHistoryTest" />
+    <testcase name="undoShouldBeCorrect" status="run" result="completed" time="0.008" timestamp="2022-12-18T23:56:39.992" classname="CommandHistoryTest" />
+  </testsuite>
+  <testsuite name="UndoCommandTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.007" timestamp="2022-12-18T23:56:40.002">
+    <testcase name="undoShouldBeCorrect" status="run" result="completed" time="0.006" timestamp="2022-12-18T23:56:40.002" classname="UndoCommandTest" />
+  </testsuite>
+</testsuites>
