@@ -8,6 +8,8 @@
 ## Visitor pattern
 - 此設計主要是針對圖形之間有無碰撞而使用的設計模式，因為碰撞的判定不應該由圖形這個物件所擁有，所以使用 visitor pattern 的方式來完成對碰撞的實作，並使用簡單的 2D 碰撞偵測方式 Axis-aligned minimum bounding box (AABB)。
 ## Abstract Factory pattern
-- 
-##
-##
+- 針對複合圖形想了解該圖形由那些基礎圖形或較小的複合圖形構成，設計一個 IteratorFactory 用於生產不同遍歷方式的工廠類別，透過該類別可以完成不同遍歷方式(例如: BFS、DFS、List)物件的製造。
+## Parser, Scanner, and Builder
+## Singleton
+## Adapter
+## Command
