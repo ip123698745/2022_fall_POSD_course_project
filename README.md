@@ -10,6 +10,8 @@
 ## Abstract Factory pattern
 - 針對複合圖形想了解該圖形由那些基礎圖形或較小的複合圖形構成，設計一個 IteratorFactory 用於生產不同遍歷方式的工廠類別，透過該類別可以完成不同遍歷方式(例如: BFS、DFS、List)物件的製造。
 ## Parser, Scanner, and Builder
+- Scanner 會讀取文件並將文件內部重要的文字提取出來，再透過 Parser 將對應名稱的物件及其所需的參數提供給 Builder，最後透過 Builder 將對應的物件生成出來。
 ## Singleton
+- 這一部分的設計是在後續才添加上去的，目的是使 IteratorFactory 生成的各種遍歷方式的 Iterator 能夠被視作是唯一用於遍歷的物件存在，因為用於遍歷的物件也不需要有第二個相同用於遍歷的 Iterator 物件存在，僅僅只需一個就夠。
 ## Adapter
 ## Command
