@@ -14,4 +14,6 @@
 ## Singleton
 - 這一部分的設計是在後續才添加上去的，目的是使 IteratorFactory 生成的各種遍歷方式的 Iterator 能夠被視作是唯一用於遍歷的物件存在，因為用於遍歷的物件也不需要有第二個相同用於遍歷的 Iterator 物件存在，僅僅只需一個就夠。
 ## Adapter
+- 由於本專案使用到 SDL library 用於圖形繪製，我們需要在不修改現有程式碼的情況下，透過 SDLAdapter (這裡是 Object Adapter) 實作我們定義用於繪製圖形的類別 Canvas 並將 SDLRender 作為 SDLAdapter 的成員變數，完成對 Canvas 介面的實作同時又能兼容第三方圖形繪製工具的 API。
 ## Command
+- 本專案也透過此設計模式完成對圖形的一些基本操作，例如: 拖放、移動、回溯...等命令。
